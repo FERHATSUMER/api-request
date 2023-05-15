@@ -3,7 +3,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-  test  </div>
+    <div>
+    <h3>Write Here</h3>
+ <input placeholder='what are you looking for' />
+    </div>
+ 
+  </div>
   );
 }
 
