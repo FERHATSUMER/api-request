@@ -15,14 +15,13 @@ const Search = ({ search }) => {
   };
 
   return (
-    <form className="form-container">
+    <form className="form-container" onSubmit={handleFormSubmit}>
       <label className="search-title">What are you looking?</label>
       <div className="search-container">
         <FaSearch className="search-icon" />
         <input
           value={valueInput}
           onChange={handleChange}
-          onSubmit={handleFormSubmit}
           className="search-input"
           placeholder="write anything"
         />
