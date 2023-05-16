@@ -1,4 +1,4 @@
-import ImageItem from './ImageItem';
+import ImageItem from "./ImagesItem";
 
 function ImageList({ imagesPlaceholder }) {
   return (
